@@ -8,6 +8,6 @@ A personal passion project focused on achieving robust bipedal locomotion using 
 - [ ] RL Policy training
 
 ## System Constraints & Goals
-- **Budget:** Under $300
+- **Budget:** Under $1000, using easily accessable parts via amazon/aliexpress
 - **Manufacturing:** 3D-printed PLA/PETG parts
-- **Control:** Blind locomotion utilizing IMU and joint feedback
+- **Control:** Blind locomotion utilizing IMU and joint feedback, able to jump, walk, run
