@@ -28,7 +28,7 @@ Hardware diagram for ONE leg
 
 
 ### Hardware Specifications
-* **Actuators:** custom BLDC actuators utilizing a high reduction cycloidal drive in order to gear down a cheap drone 360kv BLDC motor from Aliexpress. Each actuator uses odrive mini motor controller clones also from aliexpress. Each motor controller uses Odrive 3.6 firmware uploaded using Odrive tool. [Click here for great motor controller setup tutorial](https://github.com/justlovescience/MKS-XDRIVE-MINI), make sure to setup in accordance to the motor you are using. In the future I may consider creating custom pcb's for motor controls, hopefully decreasing cost even more, but that is a project in it of itself.
+* **Actuators:** custom BLDC actuators utilizing a high reduction 17:1 cycloidal drive in order to gear down a cheap drone 360kv BLDC motor from Aliexpress. Each actuator uses odrive mini motor controller clones also from aliexpress. Each motor controller uses Odrive 3.6 firmware uploaded using Odrive tool. [Click here for great motor controller setup tutorial](https://github.com/justlovescience/MKS-XDRIVE-MINI), make sure to setup in accordance to the motor you are using. In the future I may consider creating custom pcb's for motor controls, hopefully decreasing cost even more, but that is a project in it of itself.
 * **Microcontroller / Brain:** ESP32, depending on how software training goes I may switch to ESP 32 CAM so the robot can see. talks to motors through a CAN wire going to all motor controllers
 * **Power Delivery:** 6s 2200 mAH LiPo battery
 * **Sensors:** 
