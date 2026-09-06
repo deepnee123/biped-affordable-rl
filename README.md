@@ -21,6 +21,12 @@ This project aims to bridge the **Sim-to-Real** gap for low-cost, hobby-grade bi
 
 ## System Architecture
 
+forgive my poorly drawn schematic I'm still learning kiCad
+
+Hardware diagram for ONE leg
+<img width="3508" height="2480" alt="image" src="https://github.com/user-attachments/assets/0e4d75ed-f2df-4cdb-aba5-810f87d89b36" />
+
+
 ### Hardware Specifications
 * **Actuators:** custom BLDC actuators utilizing a high reduction cycloidal drive in order to gear down a cheap drone 360kv BLDC motor from Aliexpress. Each actuator uses odrive mini motor controller clones also from aliexpress.
 * **Microcontroller / Brain:** ESP32, depending on how software training goes I may switch to ESP 32 CAM so the robot can see. talks to motors through a CAN wire going to all motor controllers
