@@ -15,7 +15,8 @@ This project aims to bridge the **Sim-to-Real** gap for low-cost, hobby-grade bi
 - [x] **Hardware Prototyping:** Fabricated and assembled a single-leg testbed to validate software integration, joint range of motion, and motor actuation. Second leg to be fabricated after I receive the funds(hopefully)
 - [/] **Simulation Environment Setup:** Porting robot kinematics to **Genesis World**. Simplified model for training: <img width="836" height="730" alt="image" src="https://github.com/user-attachments/assets/25bf723f-2106-4d4b-bbe1-65f3a2082b34" />
 
-  - *In Progress:* Fixing URDF joint limits, collision meshes, and inertia tensors to eliminate mesh explosions during physics step iterations.
+  - ~~*In Progress:* Fixing URDF joint limits, collision meshes, and inertia tensors to eliminate mesh explosions during physics step iterations.~~
+  - *In Progress:* URDF was too hard to deal with so switched over to MJCF successfully, now loads in MuJoCo visualizer perfectly. adjusted all parameters for motors, friction, weight etc for accuracy
 - [ ] **RL Policy Training:** Training locomotion policies in simulation using domain randomization.
 - [ ] **Sim-to-Real Deployment:** Flashing trained policy weights to hardware for real-world locomotion tests.
 
@@ -38,7 +39,7 @@ Hardware diagram for ONE leg
 ### Software & Training Stack
 * **CAD Design:** [Onshape]https://cad.onshape.com/documents/8bf57c6be62972ed6d80fc07/w/9d44f84c666fceecad986cd8/e/5c78cbb988f68fd2f32a2769
 * **Simulation Engine:** [Genesis World Sim](https://github.com/Genesis-Embodied-AI/genesis-world)
-* **Robot Description:** Custom URDF model using Onshape to URDF tool
+* **Robot Description:** ~~Custom URDF model using Onshape to URDF tool~~ changed to using MJCF file since it supports parallel linkages without hassle and is also supported by Genesis world.
 
 ## Design Constraints & Engineering Goals
 
