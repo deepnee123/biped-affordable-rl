@@ -17,6 +17,8 @@ This project aims to bridge the **Sim-to-Real** gap for low-cost, hobby-grade bi
 
   - ~~*In Progress:* Fixing URDF joint limits, collision meshes, and inertia tensors to eliminate mesh explosions during physics step iterations.~~
   - *In Progress:* URDF was too hard to deal with so switched over to MJCF successfully, now loads in MuJoCo visualizer perfectly. adjusted all parameters for motors, friction, weight etc for accuracy
+<img width="2292" height="996" alt="Screenshot from 2026-09-06 18-59-11" src="https://github.com/user-attachments/assets/f0a52dac-c5fc-4d15-9eb6-18477723a25c" />
+
 - [ ] **RL Policy Training:** Training locomotion policies in simulation using domain randomization.
 - [ ] **Sim-to-Real Deployment:** Flashing trained policy weights to hardware for real-world locomotion tests.
 
