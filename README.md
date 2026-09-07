@@ -4,7 +4,7 @@ A personal passion project focused on achieving robust bipedal locomotion using 
 
 ## Overview
 
-This project aims to bridge the **Sim-to-Real** gap for low-cost, hobby-grade bipedal robotics. While high-end humanoid robots rely on multi-thousand-dollar custom actuators, this design explores how advanced **Reinforcement Learning (RL)** policies can compensate for physical hardware limitations.
+This project aims to bridge the **Sim-to-Real** gap for low-cost, hobby-grade bipedal robotics. While high-end humanoid robots rely on multi-thousand-dollar custom actuators, this design explores how advanced **Reinforcement Learning (RL)** policies can compensate for physical hardware limitations. Uses digitigrade locomotion(fun fact: animals like ostriches don't actually have inverted knees, it's their ankle). 
 
 ---
 
