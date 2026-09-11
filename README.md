@@ -23,6 +23,10 @@ This project aims to bridge the **Sim-to-Real** gap for low-cost, hobby-grade bi
   - currently training all movesets, planning on deploying into robot after I am able to fund and finish the hardware build. 
 - [ ] **Sim-to-Real Deployment:** Flashing trained policy weights to hardware for real-world locomotion tests.
 
+current training progress:
+
+[here:](https://www.youtube.com/watch?v=r23alA2GN7E)
+
 ## System Architecture
 
 forgive my poorly drawn schematic I'm still learning kiCad
