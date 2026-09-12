@@ -20,12 +20,15 @@ This project aims to bridge the **Sim-to-Real** gap for low-cost, hobby-grade bi
 <img width="2292" height="996" alt="Screenshot from 2026-09-06 18-59-11" src="https://github.com/user-attachments/assets/f0a52dac-c5fc-4d15-9eb6-18477723a25c" />
 
 - [/] **RL Policy Training:** Training locomotion policies in simulation using domain randomization.
-  - currently training all movesets, planning on deploying into robot after I am able to fund and finish the hardware build. 
+  - currently training all movesets, planning on deploying into robot after I am able to fund and finish the hardware build.
+  - implementing domain randomization such as variable COM and actuator friction 
 - [ ] **Sim-to-Real Deployment:** Flashing trained policy weights to hardware for real-world locomotion tests.
 
-current training progress:
+please check these out! 
+current training progress videos here!:
 
 [here:](https://www.youtube.com/watch?v=r23alA2GN7E)
+[randomized vector commands for full moveset here](https://www.youtube.com/watch?v=8FQqMWRTSfI)
 
 ## System Architecture
 
