@@ -32,9 +32,7 @@ current training progress videos here!:
 
 ## System Architecture
 
-forgive my poorly drawn schematic I'm still learning kiCad
-
-Hardware diagram for ONE leg
+Hardware schematic:
 <img width="3508" height="2480" alt="image" src="https://github.com/user-attachments/assets/0e4d75ed-f2df-4cdb-aba5-810f87d89b36" />
 
 
