@@ -33,8 +33,7 @@ current training progress videos here!:
 ## System Architecture
 
 Hardware schematic:
-<img width="3508" height="2480" alt="image" src="https://github.com/user-attachments/assets/0e4d75ed-f2df-4cdb-aba5-810f87d89b36" />
-
+<img width="3508" height="2480" alt="image" src="https://github.com/user-attachments/assets/c05b1425-4499-4b77-ab22-b231c4601df1" />
 
 ### Hardware Specifications
 * **Actuators:** custom BLDC actuators utilizing a high reduction 17:1 cycloidal drive in order to gear down a cheap drone 360kv BLDC motor from Aliexpress. Each actuator uses odrive mini motor controller clones also from aliexpress. Each motor controller uses Odrive 3.6 firmware uploaded using Odrive tool. [Click here for great motor controller setup tutorial](https://github.com/justlovescience/MKS-XDRIVE-MINI), make sure to setup in accordance to the motor you are using. In the future I may consider creating custom pcb's for motor controls, hopefully decreasing cost even more, but that is a project in it of itself.
