@@ -39,7 +39,7 @@ Recent graphs:
 training goes much better after reconfiguring simulation and the MJCF file, turns out the simulation thought the right foot was the base of the robot which made for incorrect rewards, encouraging "faceplanting" behavior
 <img width="1999" height="811" alt="image2" src="https://github.com/user-attachments/assets/f2dc384e-2bce-485e-ae1d-803a3a6b1503" />
 
-IRL progress so far, was able to move motors, in the process of re-soldering loose wires after cold joints:
+IRL progress so far, was able to move motors, in the process of re-soldering loose wires after cold joints. Currently only have parts for one leg, awaiting funding for other half.
 <img width="3024" height="4032" alt="IMG_0800" src="https://github.com/user-attachments/assets/58ac50d3-31c4-42b4-a61c-a0cf3cba71f8" />
 
 please check these out! 
