@@ -1,4 +1,4 @@
-# Low-Cost Bipedal Robot via Reinforcement Learning
+# Low-Cost Bipedal Robot via Reinforcement Learning, Raptor08
 
 A personal passion project focused on achieving robust bipedal locomotion using highly accessible, 3D-printed hardware, and machine learning control.
 
