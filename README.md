@@ -30,7 +30,7 @@ To better match a real Wi-Fi/Serial link, convert this to an explicit n-step act
 
 some early tensor graphs:
 
-these ones show that the robot makes some initial progress but finds a way to "reward hack", mainly due to poorly balanced reward functions, and faulty robot structure, robot effectively stops learning and resorts to "face planting" to avoid further penalties. 
+these ones show that the robot makes some initial progress but finds a way to "reward hack", mainly due to poorly balanced reward functions, and faulty robot structure, robot effectively stops learning and resorts to "face planting" to avoid further penalties. Ideally graphs should show upwards trend for episode time and reward
 Mean episode length(time stayed standing) didn't increase while mean reward increased:
 <img width="1999" height="794" alt="image6" src="https://github.com/user-attachments/assets/7a3480ac-f786-4137-806b-a90753c6e6f4" />
 <img width="1522" height="480" alt="image5" src="https://github.com/user-attachments/assets/915c712b-a59a-433a-9692-ab9fdc863e31" />
