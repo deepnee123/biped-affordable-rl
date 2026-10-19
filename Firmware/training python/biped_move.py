@@ -33,7 +33,7 @@ imu = scene.add_sensor(
 B = 20
 scene.build(n_envs=B, env_spacing=(1.0, 1.0))
 
-# all joints (fixed: last entry was "leg4" duplicated, changed to "leg4R")
+# all joints 
 joints_name = (
     "leg1",
     "leg2",
