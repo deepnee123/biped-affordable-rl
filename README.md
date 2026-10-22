@@ -42,11 +42,14 @@ training goes much better after reconfiguring simulation and the MJCF file, turn
 IRL progress so far, was able to move motors, in the process of re-soldering loose wires after cold joints. Currently only have parts for one leg, awaiting funding for other half.
 <img width="3024" height="4032" alt="IMG_0800" src="https://github.com/user-attachments/assets/58ac50d3-31c4-42b4-a61c-a0cf3cba71f8" />
 
-please check these out! 
+please check these videos out! includes hardware and software progresses 
 current training progress videos here!:
 
-[here:](https://www.youtube.com/watch?v=r23alA2GN7E)
+[IRL actuator motor tuning to prevent overshooting](https://www.youtube.com/shorts/kcLtdgRMJ7c)
+[Putting weight onto assembled leg to test rigidity and torque](https://www.youtube.com/shorts/9cbLpSXC8BE)
+[some training footage here:](https://www.youtube.com/watch?v=r23alA2GN7E)
 [randomized vector commands for full moveset here](https://www.youtube.com/watch?v=8FQqMWRTSfI)
+
 
 ## System Architecture
 
@@ -60,6 +63,8 @@ Hardware schematic:
 * **Sensors:** 
   * Inertial Measurement Sensor(IMU) MPU 9250
   * Built in magnetic encoders on motor controllers 
+
+#**Check out other readme for some hardware calculations**
 
 ### Software & Training Stack
 * **CAD Design:** [Onshape]https://cad.onshape.com/documents/8bf57c6be62972ed6d80fc07/w/9d44f84c666fceecad986cd8/e/5c78cbb988f68fd2f32a2769
