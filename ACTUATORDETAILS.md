@@ -1,5 +1,5 @@
 # Huge thanks to Berkley Humanoid lite for actuator inspiration
-Unfortunately their BOM is slightly outdated so I couldn't get my hands on the exact motor they were using. I settled with a much cheaper, higher Kv and smaller motor which I had to redesign the gearbox for. according to calculations, my version should achieve roughly half of their torque compared to leg joints(~20 Nm)
+Unfortunately their BOM is slightly outdated so I couldn't get my hands on the exact motor they were using. I settled with a much cheaper, higher Kv and smaller motor which I had to redesign the gearbox for. according to my calculations, my version should achieve roughly half of their torque compared to their leg joints(~20 Nm)
 
 | Specification | Value |
 |---|---|
