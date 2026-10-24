@@ -70,4 +70,5 @@ Though the current torque should be able to support the weight and walk with the
 
 1. increase gear reduction in gearbox
 2. use different materials/print settings
+3. decrease leg length to reduce required torque
 
