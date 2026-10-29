@@ -1,3 +1,5 @@
+Note for reviewers: I don't have custom pcbs, they are off the shelf. Yes, I was able to self fund one leg just need some help funding the other side. I just need to assemble whole thing so I can properly troubleshoot and start testing training on actual robot. Thanks for reading my long readme! Here some general info: I do have a second readme on here but it is mostly for myself, everything else should be here. Demonstrations are posted as youtube links above "System Architecture" Header. 
+
 # Low-Cost Bipedal Robot via Reinforcement Learning, Raptor08
 
 A personal passion project focused on achieving robust bipedal locomotion using highly accessible, 3D-printed hardware, and machine learning control.
@@ -39,7 +41,7 @@ Recent graphs:
 training goes much better after reconfiguring simulation and the MJCF file, turns out the simulation thought the right foot was the base of the robot which made for incorrect rewards, encouraging "faceplanting" behavior
 <img width="1999" height="811" alt="image2" src="https://github.com/user-attachments/assets/f2dc384e-2bce-485e-ae1d-803a3a6b1503" />
 
-IRL progress so far, was able to move motors, in the process of re-soldering loose wires after cold joints. Currently only have parts for one leg, awaiting funding for other half.
+IRL progress so far, was able to move motors, in the process of re-soldering loose wires after cold joints. Currently only have parts for one leg
 <img width="3024" height="4032" alt="IMG_0800" src="https://github.com/user-attachments/assets/58ac50d3-31c4-42b4-a61c-a0cf3cba71f8" />
 
 please check these videos out! includes hardware and software progresses 
@@ -57,7 +59,7 @@ Hardware schematic:
 <img width="3508" height="2480" alt="image" src="https://github.com/user-attachments/assets/c05b1425-4499-4b77-ab22-b231c4601df1" />
 
 ### Hardware Specifications
-* **Actuators:** custom BLDC actuators utilizing a high reduction 17:1 cycloidal drive in order to gear down a cheap drone 360kv BLDC motor from Aliexpress. Each actuator uses odrive mini motor controller clones also from aliexpress. Each motor controller uses Odrive 3.6 firmware uploaded using Odrive tool. [Click here for full motor controller setup tutorial i used](https://github.com/justlovescience/MKS-XDRIVE-MINI), make sure to setup in accordance to the motor you are using. In the future I may consider creating custom pcb's for motor controls, hopefully decreasing cost even more, but that is a project in it of itself. Web gui for tuning [here](https://github.com/MoonLighTingPY/odrive3.6_web_gui)
+* **Actuators:** custom BLDC actuators utilizing a high reduction 17:1 cycloidal drive in order to gear down a cheap drone 360kv BLDC motor from Aliexpress. Each actuator uses odrive mini motor controller clones also from aliexpress. Each motor controller uses Odrive 3.6 firmware uploaded using Odrive tool. [Click here for full motor controller setup tutorial i used](https://github.com/justlovescience/MKS-XDRIVE-MINI), make sure to setup in accordance to the motor you are using. In the future I may consider creating custom pcb's for motor controls, hopefully decreasing cost even more, but that is a project in it of itself. Web gui for tuning [here](https://github.com/MoonLighTingPY/odrive3.6_web_gui). Actuator design inspired by [Berkley Humanoid lite](https://berkeley-humanoid-lite.gitbook.io/docs/in-depth-contents/motor-characterization)'s actuators, that I adapted for my motors and hardware.
 * **Microcontroller / Brain:** ESP32, depending on how software training goes I may switch to ESP 32 CAM so the robot can see. talks to motors through a CAN wire going to all motor controllers. No custom PCBs
 * **Power Delivery:** 6s 2200 mAH LiPo battery
 * **Sensors:** 
